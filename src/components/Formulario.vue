@@ -38,7 +38,7 @@
 
 	const validar = () => {
 		if (Object.values(props).includes('')) {
-			alerta.mensaje = 'Todos los mensajes son obligatorios'
+			alerta.mensaje = 'Todos los campos son obligatorios'
 			alerta.tipo = 'error'
 			return
 		}
